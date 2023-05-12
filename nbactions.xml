@@ -52,4 +52,11 @@
                 <exec.appArgs></exec.appArgs>
             </properties>
         </action>
+        <action>
+            <actionName>CUSTOM-mvn test</actionName>
+            <displayName>mvn test</displayName>
+            <goals>
+                <goal>test</goal>
+            </goals>
+        </action>
     </actions>

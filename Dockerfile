@@ -1,4 +1,4 @@
-FROM amazoncorretto:11-alpine-jdk
+FROM amazoncorretto:1.8-alpine-jdk
 MAINTAINER denisebustos
 COPY target/newproyecto-0.0.1-SNAPSHOT.jar newproyecto-0.0.1-SNAPSHOT.jar
 ENTRYPOINT ["java","-jar","/newproyecto-0.0.1-SNAPSHOT.jar"]
