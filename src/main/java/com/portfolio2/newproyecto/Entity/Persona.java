@@ -8,9 +8,6 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-
-
-
 //@Getter @Setter
 @Entity
 public class Persona {
@@ -41,6 +38,8 @@ public class Persona {
         this.descripcion = descripcion;
         this.img = img;
     }
+
+  
 
     public int getId() {
         return id;
